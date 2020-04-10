@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JesperVanWijnen</title>
+  <title>Jesper Van Wijnen</title>
   <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
 
@@ -27,14 +27,14 @@
           </button>
 
       <div class="navbar-brand" href="#">
-          <img src="assets/images/logo.png" alt=""  width="15%">
+          <img src="assets/images/logo.png" alt=""  width="20%">
       </div>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="#home">HOME</a></li>
             <li><a href="#overmij">OVER MIJ</a></li>
-            <li><a href="#skill">VAARDIGHEDEN</a></li>
+            <li><a href="#vaardigheden">VAARDIGHEDEN</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
@@ -42,9 +42,9 @@
       </nav>
       <div class="header__content text-center">
         <span class="header__content__block">Hallo</span>
-        <h1 class="header__content__title">Ik ben Jesper V. Wijnen</h1>
+        <h1 class="header__content__title">Ik ben Jesper van Wijnen</h1>
         <ul class="header__content__sub-title">
-          <li>AV SPECIALIST<span class="padding">&#45;</span></li>
+          <li>CAMERAMAN<span class="padding">&#45;</span></li>
           <li>VIDEO EDITOR <span class="padding">&#45;</span></li>
           <li>FOTOGRAAF</li>
         </ul>
@@ -77,12 +77,12 @@
               <p class="about__description">Mijn naam is Jesper van Wijnen, een 17 jarige filmmaker die Video Design studeert op het Grafisch Lyceum Rotterdam. In mijn vrije tijd ben ik veel bezig met het maken van foto’s en video’s. En het editen daarvan.</p>
               <div class="row row--margin-top">
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>NAME :</strong> Jesper V. Wijnen</p>
-                  <p class="about__bio"><strong>AGE :</strong> 17</p>
+                  <p class="about__bio"><strong>Naam :</strong> Jesper van Wijnen</p>
+                  <p class="about__bio"><strong>Leeftijd :</strong> 17</p>
                 </div>
                 <div class="col-md-4">
-                  <p class="about__bio"><strong>JOB TITLE :</strong> AV SPECIALIST</p>
-                  <p class="about__bio"><strong>LOCATION :</strong> Nederland,Zevenhuizen</p>
+                  <p class="about__bio"><strong>Opleiding :</strong> AV-Specialist</p>
+                  <p class="about__bio"><strong>Locatie :</strong> Zuid-Holland, Zevenhuizen</p>
                 </div>
               </div>
               <div class="row">
@@ -90,7 +90,7 @@
                   <a class="button button--colorful button--margin" href="#">DOWNLOAD CV</a>
                 </div>
                 <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">HIRE ME</a>
+                  <a class="button button--colorful button--margin" href="#">HUUR MIJ</a>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@
     </div>
   </section>
 
-  <section class="skill skill--bg">
+  <section class="skill skill--bg" id="vaardigheden">
     <div class="container skill__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">VAARDIGHEDEN</h2>
@@ -119,9 +119,9 @@
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/adobe-illustrator.png" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <h4 class="skill__single-part__title">ADOBE PREMIERE PRO</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:60%;background-color: #FFAC1B;;">
+                <div class="progress-bar" role="progressbar" style="width:90%;background-color: #f07eff;;">
                 </div>
               </div>
             </div>
@@ -129,9 +129,9 @@
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/adobe-after-effects.png" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <h4 class="skill__single-part__title">ADOBE AFTER EFFECTS</h4>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:90%;background-color: #C99AFF;">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@
     </div>
   </section>
 
-  <section class="service">
+  <!-- <section class="service">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY SERVICES</h2>
@@ -201,21 +201,21 @@
       </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY PORTFOLIO</h2>
         <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="portfolio__button-group">
+        <!-- <div class="portfolio__button-group">
           <a class="button button--default" data-filter="all" href="#">ALL</a>
           <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
           <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
           <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
           <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-        </div>
+        </div> -->
         <div class="row gutters-40">
           <div class="col-md-4">
             <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
@@ -308,7 +308,7 @@
     </div>
   </section>
 
-  <section class="slider slider--bg">
+  <!-- <section class="slider slider--bg">
     <div id="myCarousel" class="carousel container slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -384,7 +384,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -392,7 +392,9 @@
 
   <footer class="footer footer--bg">
     <div class="container text-center">
-      <h1 class="footer__title">OBELA</h1>
+      <h1 class="footer__title">
+      <img src="assets/images/logo.png" alt=""  width="7%">
+    </h1>
       <ul class="footer__contact-information">
         <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+123) 45 67 89 21</a></li>
         <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> sshahriar458@gmail.com</a></li>
@@ -409,7 +411,8 @@
           <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
         </ul>
       </div>
-      <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved.</p>
+      <div class="footer__paragraph">&copy; 2019<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script> <a href="https://ezdesign.nl/" >EzDesign.nl</a>, All Rights Reserved. </div>
+      <!-- <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved. </p> -->
     </div>
   </footer>
 </div>
